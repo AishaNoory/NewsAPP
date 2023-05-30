@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device=width, initial-scale=1.0"><title>AVIDITY DESIGNS</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        </head>
+    <body>
+        <section class="sub-header">
+            <link rel="stylesheet" href="style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet">
+            <nav>
+              <a href="avhead.html"><img src="AVMARK.png"></a>
+              <div class="nav-links" id="navLinks">
+                <i class="bi bi-x-lg" onclick="hidemenu()"></i>
+                  <ul>
+                    <li><a href="index.html.html">HOME</a></li>
+                    <li><a href="avabout.html">ABOUT</a></li>
+                    <li><a href="avservices.html">SERVICES</a></li>
+                    <li><a href="avphotos.html">PHOTO-GALLERY</a></li>
+                    <li><a href="avvideo.html">VIDEOS</a></li>
+                    <li><a href="avcontacts.html">CONTACT US</a></li>
+                    <li><a href="avlocation.html">LOCATION</a></li>
+                  </ul>
+              </div>
+              <i class="bi bi-x-lg" onclick="showmenu()"></i>
+            </nav> 
+            
+           <h1>OUR SERVICES</h1>
+        </section>
+         <!------OUR SERVICES------>
+         <section class="SERVICES">
+            <h1> SERVICES</h1>
+             <p>
+              branding,package design,logo designs,infographics,motion graphics,youtube intros and outros.
+             </p>
+             <div class="row">
+                 <div class="services-col">
+                    <img src="branding.PNG">
+                   <h3>branding</h3>
+                   <p>branding for your startups</p>
+                 </div>
+                 <div class="services-col">
+                  <img src="package design.PNG">
+                 <h3>package design</h3>
+                 <p>package design for satisfied clients.</p>
+               </div>
+               <div class="services-col">
+                  <img src="logo design.PNG">
+                 <h3>logo design</h3>
+                 <p>designing logos for your startups</p>
+               </div>
+               <div class="services-col">
+                  <img src="infographic.PNG">
+                 <h3>infographics</h3>
+                 <p>assisting you to create better illustrations of your work/services. </p>
+               </div>
+               <div class="services-col">
+                  <img src="ytio.PNG">
+                 <h3>youtube intros and outros.</h3>
+                 <p>live in your aesthetic world as you tell your daily stories.</p>
+               </div>
+             </div>
+        </section>
+
+              
+
+
+         <!--------footer-->
+          <section class="footer">
+              <h4>socials</h4>
+              <p>instagram @avidity__designs
+                  <br>facebook @avidity designs
+                  <br>copyright@Avidity designs
+              </p>
+              <div class="icons">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-facebook"></i>   
+               </div>
+               <p>made with<i class="fa fa-heart-o"></i>by Avidity designs</p>     
+            </section>
+
+          </section>
+
+
+
+          <!------javascript for toggle Menu------>
+        <script>
+          var navLinks=document.getElementById("navLinks");
+
+         function showMenu(){
+            navLinks.style.right="0";
+         }
+         function hideMenu(){
+            navLinks.style.right="-200px";
+         }
+        </script>
+    </body>
+
+</html>
